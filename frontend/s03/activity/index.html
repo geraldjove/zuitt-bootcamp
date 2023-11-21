@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Zuitt IT Solutions</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Products Offered</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Package</th>
+                        <th>Price</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Basic</td>
+                        <td>&#8369 500.00</td>
+                        <td>Package includes a fully functional website with desired specifications.</td>
+                    </tr>
+                    <tr>
+                        <td>Premium</td>
+                        <td>&#8369 1000.00</td>
+                        <td>Enjoy all the benefits of the basic package and also includes site support and maintenance.</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <th colspan="3">Additional features after initial project is inclusive of charges</th>
+                </tfoot>
+            </table>
+        </section>
+        <section>
+            <h1>Contact Form</h1>
+            <form>
+                <label for="fullName">Full Name:</label>
+                <br>
+                <input type="text" name="fullName" id="fullName" required autocomplete>
+                <br>
+                <label for="lastName">Last Name:</label>
+                <br>
+                <input type="text" name="lastName" id="lastName" required>
+                <br>
+                <label for="emailAddress">Email:</label>
+                <br>
+                <input type="email" name="emailAddress" id="emailAddress" required>
+                <br>
+                <label for="contactNum">Contact Number:</label>
+                <br>
+                <input type="text" name="contactNum" id="contactNum" required>
+                <br>
+                <label for="serviceType">Service Type:</label>
+                <br>
+                <select name="serviceType" id="serviceType">
+                    <option value="front_end">Front End Programming</option>
+                    <option value="back_end">Back End Programming</option>
+                    <option value="full_stack">Full Stack Programming</option>
+                </select>
+                <br>
+                <label for="prefContact">Preferred Contact:</label>
+                <br>
+                <input type="checkbox" name="cont_email" id="cont_email">
+                <label for="cont_email">Email</label>
+                <br>
+                <input type="checkbox" name="cont_phone" id="cont_phone">
+                <label for="cont_phone">Phone</label>
+                <br>
+                <label for="packages">Packages:</label>
+                <br>
+                <input type="radio" name="packages" value="basic_packages" id="basic_package">
+                <label for="basic_package">Basic</label>
+                <br>
+                <input type="radio" name="packages" value="premium_packages" id="premium_package">
+                <label for="premium_package">Premium</label>
+                <br>
+                <label for="message">Message</label>
+                <br>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                <br>
+                <label for="password">Password:</label>
+                <br>
+                <input type="password" id="password" name="password" required>
+                <br>
+                <button type="submit">Send Inquiry</button>
+                <br>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
