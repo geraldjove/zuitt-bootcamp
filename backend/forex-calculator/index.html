@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+</head>
+<body>
+    <section>
+        <div>
+            <h1>Currency Converter</h1>
+            <form>
+                <label for="baseCurr">Base Currency</label>
+                <select name="baseCurr" id="baseCurr"></select>
+                <br>
+                <label for="targetCurr">Target Currency</label>
+                <select name="targetCurr" id="targetCurr"></select>
+                <br>
+                <label for="ammConv">Amount to Convert</label>
+                <input type="number" name="ammConv" id="ammConv">
+                <br>
+                <button id="convButton">Convert</button>
+            </form>
+            <div id="convAmm">Show Conversion</div>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
